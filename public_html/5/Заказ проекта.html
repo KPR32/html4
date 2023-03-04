@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">		
+		<link rel="stylesheet" href="style1.css" type="text/css" />
+		<title>Заказ проекта</title>
+	</head>
+	
+	<body>
+	<h1 id="blue">Заказ проекта</h1>
+	Вы можете послать письмо на наш электронный адрес<br><br>	
+	<a href="mailto:andrey23451dss2@gmail.com" target="main">Написать письмо</a>
+	<br>
+	<br>
+	Здесь Вы можете заполнить форму заказа для покупки проекта<br>
+	Поля со <span style="color: red;">*</span> обязательны для заполнения
+	
+	<br><br>
+	
+	<form>
+	<table border="true">
+	<tr>
+	<td>Текст заказа в произвольной форме<td>
+	<textarea name="text" rows="5" cols="30"></textarea> </td></td>
+	</tr>
+	<tr>
+	<td>Фамилия, имя, отчество<span style="color: red;">*</span><td>
+	<input type="text"/></td></td>
+	</tr>
+	<tr>
+	<td>Телефон<span style="color: red;">*</span><td>
+	<input type="text"/></td></td>
+	</tr>
+	<tr>
+	<td>E-mail<span style="color: red;">*</span><td>
+	<input type="text"/></td></td>
+	</tr>
+	<tr>
+	<td>Адрес<td>
+	<input type="text"/></td></td>
+	</tr>
+	<tr>
+	<td>Выберите категорию проекта<td><select name="kategoria">
+		<option value="townhouse"/> Проекты таунхаусов и блокированных домов
+		<option value="two_family"/>Проекты домов на две семьи
+		<option value="uzkie"/>Проекты узких домов
+		<option value="banya"/>Проекты бань
+	</select></td></td>
+	</tr>
+	<tr>
+	<td>Выберите материал<td><select name="material">
+<option value="kirpich"/>Проекты кирпичных домов
+<option value="gazo_peno"/>Проекты домов из газобетона и пенобетона
+<option value="brus_brevno"/>Проекты домов из бруса и бревна
+<option value="karkas"/>Проекты каркасных домов
+</select></td></td>
+	</tr>
+	<tr>
+	<td>Ваш возраст<td>
+						<table>
+						<tr>
+							<td>до 18</td>
+							<td><input type="radio" name="age" checked/></td>
+						</tr>
+						<tr>
+							<td>18-50</td>
+							<td><input type="radio" name="age"/></td>
+						</tr>
+						<tr>
+							<td>старше 50</td>
+							<td><input type="radio" name="age"/></td>
+						</tr>
+					</table></td></td>
+	</tr>
+	</table>
+	
+	<br>
+
+<input type="submit" value="Заказать"/>
+<input type="reset" value="Очистить"/>
+	</form>
+	<body>
+</html>

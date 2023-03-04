@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title><Бегущие строки</title>
+	</head>
+	<body>
+		<font color="green">
+		<marquee direction="right">
+		Эта строка появляется слева и движется вправо. Она зеленая.
+		</marquee>
+		</font>
+		<font color="red">
+		<marquee behavior="slide">
+		Этот красный текст пробежит и остановится.
+		</marquee>
+		</font>
+		<marquee bgcolor="red" behavior="alternate">
+		Это качающийся текст на красном фоне.
+		</marquee>
+		</font>
+	</body>
+</html>
